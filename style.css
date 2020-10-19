@@ -70,3 +70,12 @@ code{
   padding: 15px;
   margin-left: 15px;
 }
+.nav-link:hover{
+	background-color: #71687D;
+	color: white;
+}
+code:hover{
+  background-color: #584C6B;
+  color:white;
+
+}
