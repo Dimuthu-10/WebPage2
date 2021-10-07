@@ -2,7 +2,7 @@ body{
   font-family: 'Lexend Giga','Indie Flower','Baloo Paaji 2','Source Code Pro', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #BBC3C7;
+  background-color: #ffffff;
   position:relative;
   line-height: 1.75;
   display: block;
@@ -78,4 +78,8 @@ code:hover{
   background-color: #584C6B;
   color:white;
 
+}
+
+ul {
+  background-color: palegreen;
 }
