@@ -2,18 +2,48 @@ body{
   font-family: 'Lexend Giga','Indie Flower','Baloo Paaji 2','Source Code Pro', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
-  position:relative;
-  line-height: 1.75;
-  display: block;
+  background-color: #DFF3E4;
 }
-#nav-bar{
+
+header{
   position: fixed;
+  background: #003554;
+  padding: 5px;
+  width: 100%;
+  height: 60px;
+}
+
+header img{
+  height: 55px;
+}
+
+.nav-bar{
+  position: fixed;
+  margin-top: 50px;
+  padding-top: 20px;
   left: 0;
   height:100%;
-  max-width: 320px;
-  border-right: 2px solid black;
+  width: 370px;
+  background: #006494;
 }
+
+.nav-bar a{
+  color: #ffffff;
+  font-size: medium;
+  display: block;
+  width: 100%;
+  line-height: 35px;
+  text-decoration: none;
+  padding-left: 30px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.nav-bar a:hover{
+  background: #00A6FB;
+  color: #000;
+}
+
 .topic{
   position: fixed;
   width: 100%;
@@ -48,10 +78,10 @@ body{
 }
 #main-doc{
   margin-left: 350px;
-  position: absolute;
+  position: sticky;
   padding: 20px;
 }
-.main-section header{
+.main-section h2{
   font-size: 30px;
   margin-left: 0;
   font-weight: bolder;
@@ -70,16 +100,10 @@ code{
   padding: 15px;
   margin-left: 15px;
 }
-.nav-link:hover{
-	background-color: #71687D;
-	color: white;
-}
+
 code:hover{
   background-color: #584C6B;
   color:white;
 
 }
 
-ul {
-  background-color: palegreen;
-}
