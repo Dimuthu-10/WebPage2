@@ -29,6 +29,7 @@
             <a href="#data-types">Data Types</a>
             <a href="#if-else-statements">If...else Statements</a>
             <a href="#while-statement">While Statement</a>
+            <a href="#do-while-statement">Do While Statement</a>
             <a href="#function-declarations">Function Declarations</a>
             <a href="#reference">Reference</a>
         </nav>
@@ -200,6 +201,26 @@
             <li>After the third pass: n = 3 and x = 6</li>
           </ul></p>
           <p>After completing the third pass, the condition n < 3 is no longer true, so the loop terminates.</p>
+        </article>
+      </section>
+      <section class="main-section" id="do-while-statement">
+        <h2>
+          Do While Statement
+        </h2>
+        <article>
+          <p>The do while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true. A do while statement looks as follows:</p>
+          <code> do { statement } while (condition);</code>
+          <p>Example:</p>
+          <p>The example below uses a do while loop. The loop will always be executed at least once, even if the condition is false, because the code block is executed before the condition is tested: <code>
+          	let text = ""
+            let i = 0;
+            do {
+              text += "The number is " + i;
+              i++;
+            }
+            while (i < 10);
+          </code></p>
+          <p>Do not forget to increase the variable used in the condition, otherwise the loop will never end!</p>
         </article>
       </section>
       <section class="main-section" id="function-declarations">
